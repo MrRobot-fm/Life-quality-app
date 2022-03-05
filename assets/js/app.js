@@ -3,14 +3,6 @@ import { createAndAppendSummary } from './createSummary.js';
 import { create, append, progress } from './createCategories.js';
 
 import { progressBarStyle, footerStyle } from './style.js';
-// import '../assets/css/style.css';
-// import whatsapp from '../assets/img/whatsapp.png';
-// import facebook from '../assets/img/facebook.png';
-// import greens from '../assets/img/greens.png';
-// import instagram from '../assets/img/instagram.png';
-// import linkedin from '../assets/img/linkedin.png';
-// import main from '../assets/img/greens.png';
-// import favicon from '../assets/img/city-map.png';
 
 const div = document.querySelector('.container_categories');
 const articleContainer = document.querySelector('.article_container');
