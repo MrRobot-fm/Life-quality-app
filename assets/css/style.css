@@ -102,28 +102,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 3%;
-  border-radius: 8em;
+  padding-bottom: 2%;
+  border-radius: 10em;
   background-color: white;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
   transition: all 1s;
   z-index: -1;
   color: #37383d;
 }
 
-.app_main:hover {
-  transform: translateY(-20px);
-  cursor: pointer;
-}
-
 .app_main h1 {
   font-size: 3.8em;
-  line-height: 1.35;
-  margin-bottom: 2%;
+  line-height: 1.55;
+  margin-bottom: 1%;
 }
 
 .app_main h4 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 600;
 }
 
