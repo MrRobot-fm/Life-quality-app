@@ -94,16 +94,17 @@ body {
   align-items: center;
   position: relative;
 }
+
 .app_main {
   width: 60em;
-  heigth: 30em;
+  height: 30em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2%;
   border-radius: 8em;
-  background: white;
+  background-color: white;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   transition: all 1s;
   z-index: -10;
