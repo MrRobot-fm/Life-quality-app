@@ -96,8 +96,7 @@ body {
 }
 .app_main {
   width: 60em;
-
-  /* border: 1px solid black; */
+  heigth: 30em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,6 +106,7 @@ body {
   background: white;
   box-shadow: 0 1rem 10rem rgba(0, 0, 0, 0.3);
   transition: all 1s;
+  z-index: -10;
 }
 
 .app_main:hover {
