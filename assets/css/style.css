@@ -104,7 +104,6 @@ body {
   align-items: center;
   padding-bottom: 2%;
   border-radius: 10em;
-  background-color: white;
   box-shadow: 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
   transition: all 1s;
   z-index: -1;
