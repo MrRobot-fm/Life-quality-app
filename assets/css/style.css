@@ -87,6 +87,7 @@ body {
   background: #0b59d8;
   transition: all 1s;
 }
+
 .main_container {
   height: 50em;
   display: flex;
@@ -94,7 +95,6 @@ body {
   align-items: center;
   position: relative;
 }
-
 .app_main {
   width: 60em;
   height: 30em;
@@ -107,13 +107,28 @@ body {
   background-color: white;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   transition: all 1s;
-  z-index: -10;
+  z-index: -1;
 }
 
 .app_main:hover {
   transform: translateY(-20px);
   cursor: pointer;
 }
+
+/* .app_description {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 2.5em;
+}
+
+.title_main {
+  height: 0.5em;
+}
+
+.img_main {
+  width: 20%;
+  margin-bottom: 2%;
+}*/
 
 .app_main h1 {
   font-size: 3.8em;
