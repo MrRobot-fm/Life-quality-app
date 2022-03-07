@@ -37,6 +37,8 @@ body {
   background: grey;
 }
 
+/* //// SEARCH BAR //// */
+
 .search {
   display: flex;
   justify-content: center;
@@ -88,6 +90,8 @@ body {
   transition: all 1s;
 }
 
+/* //// HOME PAGE //// */
+
 .main_container {
   height: 50em;
   display: flex;
@@ -114,21 +118,6 @@ body {
   transform: translateY(-20px);
   cursor: pointer;
 }
-
-/* .app_description {
-  text-align: center;
-  font-size: 1.3em;
-  line-height: 2.5em;
-}
-
-.title_main {
-  height: 0.5em;
-}
-
-.img_main {
-  width: 20%;
-  margin-bottom: 2%;
-}*/
 
 .app_main h1 {
   font-size: 3.8em;
@@ -164,25 +153,8 @@ body {
   background: linear-gradient(to top left, #39b385, #9be15d);
 }
 
-.link_div {
-  width: 6.5em;
-  padding: 0.7em;
-  margin: auto;
-  margin-top: 2%;
-  background: #1266f1;
-  border-radius: 2em;
-  box-shadow: 0 1em 1em #cdcdcd;
-}
-.link_info {
-  color: white;
-  text-decoration: none;
-  font-size: 1em;
-  /* padding: 10%; */
-}
 
-.link_div:hover {
-  background: #0b59d8;
-}
+/* ///// SUMMARY SECTION //// */
 
 .article_container {
   /* display: none; */
@@ -227,6 +199,27 @@ body {
 .title_categories h2 {
   font-size: 1.4em;
 }
+
+.link_div {
+  width: 6.5em;
+  padding: 0.7em;
+  margin: auto;
+  margin-top: 2%;
+  background: #1266f1;
+  border-radius: 2em;
+  box-shadow: 0 1em 1em #cdcdcd;
+}
+.link_info {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.link_div:hover {
+  background: #0b59d8;
+}
+
+/* //// CATEGORIES SECTION //// */
 
 .container_categories {
   /* display: none; */
@@ -292,12 +285,16 @@ span {
   font-weight: 500;
 }
 
+/* //// ERROR MESSAGE //// */
+
 .error {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
 }
+
+/* //// FOOTER SECTION //// */
 
 .footer_container {
   margin-top: 0;
