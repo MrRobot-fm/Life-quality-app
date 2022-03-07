@@ -106,7 +106,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding-bottom: 3%;
   border-radius: 8em;
   background-color: white;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
