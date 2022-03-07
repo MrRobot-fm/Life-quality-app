@@ -112,6 +112,7 @@ body {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   transition: all 1s;
   z-index: -1;
+  color: #37383d;
 }
 
 .app_main:hover {
@@ -127,7 +128,7 @@ body {
 
 .app_main h4 {
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .app_main span {
