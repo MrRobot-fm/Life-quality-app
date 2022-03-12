@@ -18,7 +18,7 @@ const renderPage = async function (city) {
 
   createAndAppendSummary(teleportData, city);
 
-  teleportData.dataTeleport.data.categories.forEach(element => {
+  teleportData.dataCategories.forEach(element => {
     // Create elements function
     create();
 
