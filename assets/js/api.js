@@ -1,4 +1,5 @@
 import { inputSearch, errorStatus } from './app.js';
+import get from '/node_modules/lodash-es/get.js';
 
 export const teleport = async function (city) {
   try {
@@ -6,9 +7,10 @@ export const teleport = async function (city) {
       .get(`https://api.teleport.org/api/urban_areas/slug:${city}/scores/`)
       .then(response => {
         const dataTeleport = response;
-        const summary = response.data.summary;
-        const cityScoreData = response.data.teleport_city_score.toFixed(1);
-        return { dataTeleport, summary, cityScoreData };
+        const dataCategories = get(response, 'data.categories', '');
+        const summary = get(response, 'data.summary', '');
+        const cityScoreData = get(response, 'data.teleport_city_score', '');
+        return { dataTeleport, dataCategories, summary, cityScoreData };
       });
   } catch (err) {
     inputSearch.value = '';
