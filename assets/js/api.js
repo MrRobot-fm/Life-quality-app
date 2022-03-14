@@ -1,5 +1,5 @@
 import { inputSearch, errorStatus } from './app.js';
-import get from './get.js';
+import get from 'lodash-es';
 
 export const teleport = async function (city) {
   try {
