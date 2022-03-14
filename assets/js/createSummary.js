@@ -28,7 +28,7 @@ export const createAndAppendSummary = function (teleportData, city) {
 
   // Style elements
   titleH2Summary.textContent = `${city.toUpperCase().replace('-', ' ')}`;
-  cityScore.textContent = `CITY SCORE: ${teleportData.cityScoreData}%`;
+  cityScore.textContent = `CITY SCORE: ${teleportData.cityScoreData.toFixed(1}%`;
   title.textContent = 'LIFE SCORE QUALITY';
   link.textContent = `More info`;
 };
