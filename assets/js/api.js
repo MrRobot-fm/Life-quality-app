@@ -10,9 +10,9 @@ export const teleport = async function (city) {
         const dataCategories = get(response, 'data.categories', '');
         const summary = get(response, 'data.summary', '');
         const cityScoreData = get(response, 'data.teleport_city_score', '');
-     console.log(response)
         return { dataTeleport, dataCategories, summary, cityScoreData };
       });
+    console.log(response)
   } catch (err) {
     inputSearch.value = '';
     errorStatus.style.opacity = 1;
