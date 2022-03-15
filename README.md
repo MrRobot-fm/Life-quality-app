@@ -1,6 +1,6 @@
 # Life-quality-app
 
-Deploy : https://lifequalityapp.netlify.app/
+Deploy : https://lifequalityapp.netlify.app/ <br/>
 Repository bundle: https://github.com/Federix87/Life-quality-app-bundle
 
 Life quality app è un progetto che permette all'utente di visualizzare le informazioni sulla qualità della vita nella varie città, in paricolare potrà digitare nella searchbar il nome della città che desidera e trovare le info quali una descrizione generale e i punteggi nella varie categorie assegnate alla città es: costo della vita, economia, educazione, qualità ambientale e tante altre categorie.
