@@ -8,7 +8,7 @@ export const teleport = async function (city) {
       .then(response => {
         const dataTeleport = response;
         const dataCategories = get(response, 'data.categories', '');
-        const summary = get(response, 'data.summary', '');
+        const summary = get(response.data, 'summary', '');
         const cityScoreData = get(response, 'data.teleport_city_score', '');
         return { dataTeleport, dataCategories, summary, cityScoreData };
       });
